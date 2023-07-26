@@ -12,7 +12,7 @@ const welcomeEmail = (name) => {
     from: "Sofiane <iansof87@gmail.com>",
     to: ["sofiano.a@hotmail.fr"],
     subject: "Welcome Email",
-    html: `<h2>Hello Mr ${name}, Welcome to our website</h2>`,
+    html: `<h2>Hello ${name}, Welcome to my website</h2>`,
   });
 };
 
