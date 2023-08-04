@@ -16,18 +16,18 @@ const welcomeEmail = (name) => {
   });
 };
 
-const cencelationEmail = (name) => {
+const cancelationEmail = (name) => {
   mg.messages.create("sandbox65077ffba0ca4791b7f5e736f32d1b92.mailgun.org", {
     from: "Sofiane <iansof87@gmail.com>",
     to: ["sofiano.a@hotmail.fr"],
-    subject: "Concelation Email",
+    subject: "Cancelation Email",
     html: `<h2>Goodbye ${name}</h2>`,
   });
 };
 
 module.exports = {
   welcomeEmail,
-  cencelationEmail,
+  cancelationEmail,
 };
 
 // const welcomeEmail = async (name) => {
